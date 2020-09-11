@@ -9,3 +9,16 @@ funcionT1 = input("ingrese la funcion de transferencia 1: ");
 funcionT2 = input("ingrese la funcion de transferencia 2: ");
 
 [A, B, C, D] = transferenciaModelo(funcionT1, funcionT2);
+
+H = funcionTransferencia(A, B, C, D);
+
+disp('Resultado A:');
+disp(A);
+disp('Resultado B:');
+disp(B);
+disp('Resultado C:');
+disp(C);
+disp('Resultado D:');
+disp(D);
+disp('Funcion de transferencia total:');
+pretty(H);
