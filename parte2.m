@@ -72,13 +72,13 @@ disp(ejemplo1y);
 %Ejemplo 2:
 disp('EJEMPLO 2:');
 disp('Valores:');
-disp('Flujo  = 120 m^(3)/s')
-disp('Area de la superficie del segundo estanque = 15 m^{2}')
-disp('Nivel de agua del segundo estanque = 20 m')
+disp('Flujo  = 200 m^(3)/s')
+disp('Area de la superficie del segundo estanque = 50 m^{2}')
+disp('Nivel de agua del segundo estanque = 350 m')
 %variables de estado
-ejemplo1x = subs(x2, {F1, A2, h2}, {120, 15, 20});
+ejemplo1x = subs(x2, {F1, A2, h2}, {200, 50, 350});
 %salida
-ejemplo1y = subs(y, h2, 20);
+ejemplo1y = subs(y, h2, 350);
 
 disp('El nivel de agua del estanque 2 varia a:');
 disp(ejemplo1x);
